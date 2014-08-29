@@ -13,6 +13,13 @@ If it doesn't already exist, make a directory `~/.fonts/Library` and put
 these files there. That's it. Now other software should be able to find 
 and use the Inconsolata LGC fonts. Works in Ubuntu, at least.
 
+Then for Emacs (if you use Emacs) put
+
+    emacs.font:      InconsolataLGC-12
+
+in your `.Xresources` (or some other font size than 12) and say `xrdb 
+-merge ~/.Xresources`.
+
 The previous README from [MihailJP/Inconsolata-LGC](https://github.com/MihailJP/Inconsolata-LGC)
 is here:
 

@@ -1,0 +1,9 @@
+ChangeLog
+*.otf
+*.ttf
+InconsolataLGC/
+InconsolataLGC-OT/
+*.tar.xz
+*.tar.gz
+*.tar.bz2
+*.zip
